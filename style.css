@@ -1,53 +1,9 @@
 body {
     margin: 0;
     margin-top: 50px;
+    font-family: sans-serif;
 }
 
-
-header {
-    display: flex;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 50px;
-    background-color: #eee;
-}
-
-header * {
-    display: inline;
-    height: 50px;
-}
-
-header ul {
-    padding: 0;
-}
-
-header li {
-    margin-left: 20px;
-}
-
-section {
-    height: 100vh;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-footer {
-    text-align: center;
-    padding: 50px;
-
-}
-
-
-body {
-    margin: 0;
-    margin-top: 50px;
-    font-family: sans-serif; /* Add this line */
-}
 
 header {
     display: flex;
@@ -80,7 +36,19 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
+
+    background-size: cover; /* Add this line */
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
 }
+
+footer {
+    text-align: center;
+    padding: 50px;
+
+}
+
 
 #hero .profile-img {
     width: 300px;
@@ -109,4 +77,18 @@ section h3 {
 header a {
     text-decoration: none;
     color: black;
+}
+
+/* Add everything below here */
+
+#hero {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('images/sea.jpg');
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('images/sunset.jpg');
+}
+
+#contact {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/canyon.jpg');
 }
