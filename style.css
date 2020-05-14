@@ -36,17 +36,17 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-image: url(sea.jpg.jpg);
+    height: auto;
+    background-size: cover;
+    background-position: center;
+  }
 
-    background-size: cover; /* Add this line */
-    background-position: center center; /* Add this line */
-    background-repeat: no-repeat; /* Add this line */
-    background-attachment: fixed; /* Add this line */
-}
+
 
 footer {
     text-align: center;
     padding: 50px;
-
 }
 
 
@@ -77,18 +77,4 @@ section h3 {
 header a {
     text-decoration: none;
     color: black;
-}
-
-/* Add everything below here */
-
-#hero {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('images/sea.jpg');
-}
-
-#about {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('images/sunset.jpg');
-}
-
-#contact {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/canyon.jpg');
 }
