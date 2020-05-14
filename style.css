@@ -36,7 +36,7 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(sea.jpg.jpg);
+    background-image: linear-gradient();
     height: auto;
     background-size: cover;
     background-position: center;
