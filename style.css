@@ -1,11 +1,13 @@
-body {
+html, body {
     margin: 0;
     margin-top: 50px;
     font-family: sans-serif;
+    padding: 0;
 }
 
 
 header {
+    background-color: url() ;
     display: flex;
     position: fixed;
     top: 0;
@@ -14,6 +16,7 @@ header {
     height: 50px;
     line-height: 50px;
     background-color: #eee;
+    text-align: center;
 }
 
 section {
@@ -88,4 +91,8 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.footer {
+  
 }
