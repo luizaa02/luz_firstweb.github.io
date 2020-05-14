@@ -33,6 +33,30 @@ body {
     font-family: sans-serif; /* Add this line */
 }
 
+.navigation {
+  box-sizing: border-box;
+  background-color: inherit;
+  overflow: auto;
+  padding-left: 18px 50px;
+  padding-right: 18px 50px;
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+li {
+  color: #FFF';
+  display: inline-flex;
+  font-family: "fantasy", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 20px 18px 10px 18px;
+  text-transform: uppercase;
+}
+
 header {
     display: flex;
     position: fixed;
