@@ -26,3 +26,42 @@ section {
     background-repeat: no-repeat; /* Add this line */
     background-attachment: fixed; /* Add this line */
 }
+
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif; /* Add this line */
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 100vh;
+    border: 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
